@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import flask
 from flask_cors import CORS # type: ignore
 from twilio.rest import Client # type: ignore
 
